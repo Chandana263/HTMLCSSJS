@@ -1,0 +1,32 @@
+.c1{
+    border: 2px solid yellow;
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+.c2{
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
+}
+.c3{
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    background-color: springgreen;
+     position: absolute;
+     /* absolute means bowser view point....
+     text remains same but background changes according to
+     instructions */
+    top: 220px;
+    bottom: 120px;
+    left: 320px;
+    right: 320px;
+}
+.c4{
+    border: 2px solid sienna;
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+}

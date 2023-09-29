@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Element specific</title>
+</head>
+<body>
+    <p><bdo dir="ltr">java is object oriented programming</bdo></p>
+    <p> <bdo>google the location from their</bdo></p>
+    <p><bdo dir="rtl">Python is a object oriented programming</bdo></p>
+    <hr>
+    
+    <!-- <bdo>(bidirectional) is a tag which is element specific, which comes with two attributes 
+        they are LTR and RTL -->
+    <!-- where the LTR means left to right so the sentence will be executed as left to right -->
+    <!-- where the RTL means right to left so the sentence will be executed as right to left -->
+    <p><abbr title="html">hyper text mark up language</abbr></p>
+    
+     <p><acronym title ="css">Cascading Style sheets</acronym></p> 
+     <hr>  
+    <!-- <abbr> tag is used to write the abbreviation ...
+    here we prefer the <abbr> tag for abbreviation than the <acronym> tag because 
+        this <acronym>tag is not  supported in HTML5 and is deprecated now. Do not use. 
+            To add abbreviation in HTML, use the <abbr> tag. -->
+
+      <!--Relative path (relative means same path ...like existing project location) -->
+        <img src="car.1.jpg" alt="car" width="250px">
+        
+        <img src="./car.2.jpg " alt="car" width="250px">
+        <hr> 
+      <!-- Absolute Path (form another websites ..like same system ,different folders) -->
+      <!-- from path location-->
+      <img src="../element specific attributes/car.4.jpg" alt="car" width="250px">
+      <!-- from urls -->
+     <img src="https://picsum.photos/536/354" alt="live images" width="250px">
+     <hr>
+      <!-- audio tag -->
+     
+      <audio controls src="./airtel music.mp3"></audio>
+      <audio controls src="./airtel music.mp3" muted></audio>
+      <audio controls src="./airtel music.mp3" loop></audio>
+      <audio controls src="./airtel music.mp3" autoplay></audio>
+     <hr>
+     <!-- video tag -->
+     <video controls src="./zozo video.mp4" width="250px"></video>
+     <video controls src="./zozo video.mp4" muted width="250px"></video>
+     <video controls src="./zozo video.mp4" loop width="250px"></video>
+     <video controls src="./zozo video.mp4" autoplay width="250px"></video>
+
+     <video controls width="250px" poster="https://4.bp.blogspot.com/-tb8olB8fa4A/UPfGFxjNspI/AAAAAAAAB38/dELogKCpx_8/s1600/1024x768_New_006.jpg">
+        <source src="./zozo video.mp4" poster="https://4.bp.blogspot.com/-tb8olB8fa4A/UPfGFxjNspI/AAAAAAAAB38/dELogKCpx_8/s1600/1024x768_New_006.jpg">
+     </video>
+     <!-- here in the above source we can create a cover image for the video by the attribute "poster"
+    Go to chrome and select the image ...,copy the image address...,and paste in  the poster attribute
+     ....now WE HAVE TO RUN THE PROGRAMM IN "RUN WITHOUT DEBUGGING" option then
+      we can see the image on the vedio   -->
+     <hr>
+    </body>
+</html>
